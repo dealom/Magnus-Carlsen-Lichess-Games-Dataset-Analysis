@@ -1,0 +1,11 @@
+Analysis Goals:
+•	Show how Magnus’s performance is influenced by:
+    o	Color
+    o	Time control
+    o	Opening 
+    o	Strength of opponents
+    o	Year
+•	Performance Metrics
+    o	Win Rate (W/L/T ratios) (can be heavily influenced by strength of opponents)
+    o	Performance Rating (uses wins-losses and average opponent rating to calculate)
+•	
