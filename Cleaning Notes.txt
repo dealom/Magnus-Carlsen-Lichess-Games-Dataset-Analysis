@@ -1,0 +1,17 @@
+Cleaning Dataset:
+•	Replace usernames with real names
+
+o	Remove the empty ‘ply_count’ column
+o	Remove the ‘round’ column, it’s all question marks
+o	Remove ‘game_id’ column. The ‘site’ column serves as a unique identifier.
+o	Remove the ‘file_name’ column since it’s just named after Magnus’s usernames which will be changed to Magnus anyways.
+
+•	There could be a better way to showcase the results of games. I prefer to keep white info on the left side, and black info on the right side, rather than alternating 
+Title	Elo Dif	Elo	Name	Result	Name	Elo	Elo Dif	Title
+
+•	The column names have to be unique, so I’ll specify black or white there.
+•	The winner, winner_elo, loser, loser_elo columns are just the white, white_elo, black, black_elo columns rearranged. Remove these redundant columns.
+•	The ‘group_name_color’ and ‘group_name_result’ shows Magnus’ color and result. I could track his color using another column and change the result column name to ‘Magnus result’ or something similar.
+•	The ‘date_played’ and ‘utc_date’ columns are the exact same. Remove the date_played column.
+•	Sort games by utc_date. Original data is sorted by username.
+
