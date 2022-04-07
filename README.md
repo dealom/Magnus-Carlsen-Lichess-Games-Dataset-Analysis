@@ -3,6 +3,7 @@
 The raw data set is too large to be uploaded to github. It can be seen here: https://www.kaggle.com/zq1200/magnus-carlsen-lichess-games-dataset
 
 
+
 Main visualization:
 ![image](https://user-images.githubusercontent.com/85703853/162316504-ebc260df-88ce-4298-917e-bdc7616833a4.png)
 
