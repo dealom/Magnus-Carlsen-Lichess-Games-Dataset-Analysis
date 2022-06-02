@@ -2,6 +2,19 @@
  Magnus Carlsen Lichess Games Dataset Analysis
 The raw data set is too large to be uploaded to github. It can be seen here: https://www.kaggle.com/zq1200/magnus-carlsen-lichess-games-dataset
 
+My project was to analyze the Magnus Carlsen Lichess Games Dataset. This dataset
+contains each game Magnus has played on Lichess, each move he and his opponent has made,
+and a username to real name table. I wanted to figure out which variables affect his win rate the
+most. The variables I considered were initially color (black or white), time control (how long
+each player gets to complete a game), opening (first few moves of the game), and strength of
+opponents (Lichess rating). As I worked on my project, I decided to include year as a variable
+and changed opening to just the first move. I made this change because the opening classification
+system would be hard to explain and there are at least 1,300 different openings. Also, instead of
+win rate, I looked at his fractional score. Fractional score is equal to number of wins + number of
+ties * 0.5 divided by total number of games. I think it's a better metric than win rate because
+chess has a lot of draws and draws affect ratings. Chess tournaments use fractional scores as
+well.
+
 
 
 Main visualization:
